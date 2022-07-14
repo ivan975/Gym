@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* navbar starts */
 .menu-container {
   display: flex;
   justify-content: space-evenly;
@@ -58,3 +59,73 @@
   margin: 10px;
   border: 1px solid red;
 }
+.banner-btn:hover {
+  background-color: blue;
+  color: wheat;
+}
+/* navbar ends */
+
+/* section part starts */
+.title-2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.section-two {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  padding: 50px;
+}
+.card-1 {
+  width: 300px;
+  height: 200px;
+  border: 2px solid gray;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 16px gray;
+}
+.card-1:hover {
+  margin-top: 0;
+  border: 2px solid salmon;
+}
+.gym-icon {
+  width: 50px;
+}
+/* section part ends */
+
+/* about us part starts */
+.about-container {
+  display: flex;
+  background-color: black;
+  color: wheat;
+  height: 310px;
+  /* justify-content: space-evenly;
+  align-items: center; */
+}
+.about-left {
+  width: 700px;
+  margin-right: 40px;
+  /* border: 1px solid red; */
+}
+.about-right {
+  width: 700px;
+  /* border: 1px solid black; */
+}
+.workout-image {
+  display: flex;
+  margin-top: 50px;
+}
+.workout-image img {
+  width: 300px;
+  height: 270px;
+  transform: skewX(-20deg);
+}
+.btn-text {
+  text-decoration: none;
+  color: wheat;
+}
+/* about us part ends */
