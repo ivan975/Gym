@@ -1,5 +1,60 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: wheat;
+  padding: 15px;
+}
+.menu-items {
+  display: flex;
+}
+.menu-items li {
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  font-size: 17px;
+}
+.menu-items li:hover {
+  color: blue;
+  cursor: pointer;
+}
+.company-logo {
+  margin-right: 68%;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: wheat;
+  align-items: center;
+}
+.banner-description {
+  margin-left: 50px;
+}
+.bannner-text {
+  color: red;
+  font-size: 30px;
+}
+.title-1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+.text {
+  font-size: 25px;
+  margin: 10px;
+}
+.banner-btn {
+  padding: 14px 28px;
+  font-size: 18px;
+  background-color: rgb(204, 3, 3);
+  color: wheat;
+  margin: 10px;
+  border: 1px solid red;
 }
